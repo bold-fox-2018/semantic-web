@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Markdown Cheatsheet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/normalize.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css">
+  <script src="../js/content.js"></script>
+  <script src="../js/main.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav id="navigation">
+        <a data-type="main" class="title">Markdown</a>
+        <a data-type="started">Getting Started</a>
+        <a data-type="basic">Basic Syntax</a>
+        <a data-type="adv">Advanced Syntax</a>
+      </nav>
+    </div>
+  </header>
+  <main id="content">
+    <section>
+      <div class="top-section">
+        <div class="container">
+          <h1>Advanced Syntax</h1>
+          <p>Advanced features that build on the basic Markdown syntax.</p>
+        </div>
+      </div>
+      <div class="container">
+        <article>
+          <h2>Overview</h2>
+          <p>The basic syntax outlined in John Gruber’s original design document added many of the elements needed on a day-to-day basis, but it wasn’t enough for some people. That’s where extended syntax comes in.</p>
+          <p>Several individuals and organizations took it upon themselves to extend the basic syntax by adding additional elements like tables, code blocks, syntax highlighting, URL auto-linking, and footnotes. These elements can be enabled by using a lightweight markup language that builds upon the basic Markdown syntax, or by adding an extension to a compatible Markdown processor.</p>
+        </article>
+        <article>
+          <h2>Extended Syntax</h2>
+          <p>These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Element</th>
+                <th>Markdown Syntax</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Table</td>
+                <td>
+                  | Syntax | Description |<br>
+                  | ----------- | ----------- |<br>
+                  | Header | Title |<br>
+                  | Paragraph | Text |
+                </td>
+              </tr>
+              <tr>
+                <td>Fenced Code Block</td>
+                <td>'```'<br>
+                  {<br>
+                  &nbsp;&nbsp;"firstName": "John",<br>
+                  &nbsp;&nbsp;"lastName": "Smith",<br>
+                  &nbsp;&nbsp;"age": 25<br>
+                  }<br>
+                  '```'
+                </td>
+              </tr>
+              <tr>
+                <td>Footnote</td>
+                <td>
+                  Here's a sentence with a footnote. [^1]<br><br>
+
+                  [^1]: This is the footnote.
+                </td>
+              </tr>
+              <tr>
+                <td>Heading ID</td>
+                <td>### My Great Heading {#custom-id}</td>
+              </tr>
+              <tr>
+                <td>Definition List</td>
+                <td>
+                  term<br>
+                  : definition
+                </td>
+              </tr>
+              <tr>
+                <td>Strikethrough</td>
+                <td>~~The world is flat.~~</td>
+              </tr>
+              <tr>
+                <td>Task List</td>
+                <td>
+                  - [x] Write the press release<br>
+                  - [ ] Update the website<br>
+                  - [ ] Contact the media
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
