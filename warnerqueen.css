@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header section */
+
+img {
+    /* border: 1px solid red; */
+    width: 60px;
+    position: absolute;
+    left: 50px;
+}
+
+header {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 75px;
+    /* background-color: azure; */
+    background: #000;
+    /* position: fixed; */
+    
+}
+
+.header {
+    /* border: 1px solid green; */
+    margin-left: 200px;
+    margin-top: 10px;
+    padding: 0 30px;
+    float: right;
+    opacity: 0.3;
+}
+
+.header a h1 {
+    /* border: 1px solid blue; */
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+    text-transform: uppercase;
+    color:rgba(250, 43, 250, 0.9);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    background-color: hsla(282, 53%, 17%, 0.5);
+    opacity: 0.9;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.header a h1:hover {
+    background: #117bff;
+    cursor: pointer;
+    transition: background .5s;
+}
+
+/* main section */
+
+main {
+    /* border: 1px solid red; */
+    height: 300px;
+    /* background-color: azure; */
+    background-image: url("https://us.moodmedia.com/wp-content/uploads/2016/10/background-burger.jpg");
+    background-size: cover;
+    height: 600px;
+    margin-top: -20px;
+}
+
+#info {
+    /* border: 1px solid green; */
+    margin: 10px;
+}
+
+.title {
+    /* border: 1px solid blue; */
+    margin: 20px;
+}
+
+.title h2 {
+    /* border: 1px solid brown; */
+    padding: 20px;
+    font-size: 80px;
+    line-height: 100px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.title p {
+    /* border: 1px solid gold; */
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 8px;
+    width: 600px;
+    /* position: left; */
+    text-transform: uppercase;
+}
+
+/* section section */
+
+section {
+    /* border: 1px solid red; */
+    background-image: url("https://farmburger.com/wp-content/uploads/2017/06/menu-hero-compressor.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+.section {
+    height: 200px;
+}
+
+.menu-food {
+    /* border: 1px solid green; */
+    text-align: center;
+}
+
+.menu-food a h2 {
+    border: 1px solid red;
+    display: inline-block;
+    height: 150px;
+}
+
+.menu-food img {
+    /* border: 1px dashed blue; */
+    width: 250px;
+    height: 200px;
+    margin-right: 40px;
+    float: left;
+    position: relative;
+    border-radius: 2px;
+    left: 270px;
+    /* opacity: 1.8; */
+}
+
+.menu-food h3  {
+    border: 1px dashed blue;
+    display: inline-block;
+    position: absolute;
+    /* top: 850px;
+    right: 700px;
+    text-decoration: none;
+    color: #00aced; */
+    /* opacity: 0.1; */
+    text-transform: uppercase;
+}
+
+.menu-food img,.cb {
+    /* background-image: url("http://img.antaranews.com/new/2017/03/ori/20170316The_Disastr_Burger.jpg"); */
+    /* background-size: cover; */
+    /* z-index: 1; */
+}
+
+.menu-food a h3.cb {
+    /* border: 1px dotted black; */
+    color: #010608;
+    top: 870px;
+    right: 760px;
+    font-size: 30px;
+}
+
+.menu-food a h3.bb {
+    /* border: 1px dotted black; */
+    color: #010608;
+    top: 870px;
+    right: 500px;
+    font-size: 30px;
+}
+
+.menu-food a h3.sb {
+    /* border: 1px dotted black; */
+    color: #010608;
+    top: 870px;
+    right: 200px;
+    font-size: 30px;
+}
+/* footer section */
+
+footer {
+    /* border: 1px solid red; */
+    background-color: black;
+
+}
+
+.footer {
+    /* border: 1px solid palevioletred; */
+    /* margin: 20px; */
+}
+
+footer #aboutus .footer {
+    text-align: center;
+    /* border: 1px dashed green; */
+}
+
+/* .alamat h4 {
+    border: 1px solid green;
+    display: inline-block;
+    padding: 20px;
+} */
+
+/* .masterchef h4 {
+    border: 1px solid blue;
+    display: inline-block;
+    padding: 20px;
+} */
+
+.sosialmedia  h4{
+    /* border: 1px solid red; */
+    display: inline-block;
+    padding: 20px;
+    width: 100px;
+    margin-right: -10px;
+    font-weight: bold;
+}
+
+.sosialmedia .fb {
+    background-color: #3b5998;
+    color: azure;
+}
+
+.sosialmedia .fb:hover {
+    background: #09389c;
+    cursor: pointer;
+    transition: background .5s;
+}
+
+.sosialmedia .tw {
+    background-color: #00aced;
+    color: azure;
+}
+
+.sosialmedia .tw:hover {
+    background: #055c7c;
+    cursor: pointer;
+    transition: background .5s;
+}
+
+.sosialmedia .ig {
+    background-color: #bc2a8d;
+    color: azure;
+}
+
+.sosialmedia .ig:hover {
+    background: #640546;
+    cursor: pointer;
+    transition: background .5s;
+}
+
+.alamat, .masterchef, .sosialmedia {
+    display: inline-block;
+    /* border: 2px dotted yellow; */
+}
