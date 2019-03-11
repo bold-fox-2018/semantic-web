@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+title {
+    color: #E17A47;
+}
+
+#myTable, #judul {
+    margin: auto;
+    margin-top: 10px;
+}
+
+#content {
+    text-align: center;
+    /* background-color: red; */
+}
+
+#judul {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #22a6b3 ;
+}
+
+#papanScore h2 {
+    border-top: 1px solid;
+}
+
+.btn {
+    border: none;
+    padding: 5px;
+}
+
+.play {
+    background-color: #fdcb6e;
+    
+}
+.undo {
+    background-color: #00b894;
+}
+
+td {
+    /* background-color: #E17A47 ; */
+    border: 1px solid;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+/* //////////////////////////////////////////////  END FOR HTML */
+
+.inputBaru {
+    color: red;
+}
+
+
+/* Color BG */
+.c0 {
+    background-color: #dfe4ea ; 
+}
+.c2 {
+    background-color: #82ccdd;
+}
+.c4 {
+    background-color: #60a3bc;
+}
+.c8 {
+    background-color: #b8e994;
+}
+.c16 {
+    background-color: #78e08f;
+}
+.c32{
+    background-color: #fab1a0;
+}
+.c64 {
+    background-color: #e17055;
+}
+.c128 {
+    background-color: #fad390;
+}
+.c256 {
+    background-color: #f8c291;
+}
+.cnew {
+    background-color: green;
+}
